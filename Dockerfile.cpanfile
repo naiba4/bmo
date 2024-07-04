@@ -1,4 +1,4 @@
-FROM perl:5.36.1-slim
+FROM perl:5.38.2-slim
 
 RUN apt-get update \
     && apt-get upgrade -y \
